@@ -88,7 +88,7 @@ url = ""
 proxy_ver = "5"
 brute = False
 out_file = "proxy.txt"
-thread_num = 800
+thread_num = 3000
 data = ""
 cookies = ""
 ###############################
@@ -540,10 +540,10 @@ def DownloadProxies(proxy_ver):
 			"https://raw.githubusercontent.com/ShiftyTR/Proxy-List/master/socks5.txt",
 			"https://raw.githubusercontent.com/jetkai/proxy-list/main/online-proxies/txt/proxies-socks5.txt",
 			"https://api.openproxylist.xyz/socks5.txt",
-			#"https://www.freeproxychecker.com/result/socks5_proxies.txt",
-			#http://proxysearcher.sourceforge.net/Proxy%20List.php?type=socks",
+			"https://www.freeproxychecker.com/result/socks5_proxies.txt",
+			"http://proxysearcher.sourceforge.net/Proxy%20List.php?type=socks",
 			"https://api.proxyscrape.com/v2/?request=getproxies&protocol=socks5",
-			#"https://openproxy.space/list/socks5",
+			"https://openproxy.space/list/socks5",
 			"https://openproxylist.xyz/socks5.txt",
 			"https://proxyspace.pro/socks5.txt",
 			"https://raw.githubusercontent.com/B4RC0DE-TM/proxy-list/main/SOCKS5.txt",
@@ -571,8 +571,8 @@ def DownloadProxies(proxy_ver):
 			"https://api.openproxylist.xyz/http.txt",
 			"https://raw.githubusercontent.com/shiftytr/proxy-list/master/proxy.txt",
 			"http://alexa.lr2b.com/proxylist.txt",
-			#"https://www.freeproxychecker.com/result/http_proxies.txt",
-			#"http://proxysearcher.sourceforge.net/Proxy%20List.php?type=http",
+			"https://www.freeproxychecker.com/result/http_proxies.txt",
+			"http://proxysearcher.sourceforge.net/Proxy%20List.php?type=http",
 			"https://raw.githubusercontent.com/jetkai/proxy-list/main/online-proxies/txt/proxies-http.txt",
 			"https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt",
 			"https://raw.githubusercontent.com/sunny9577/proxy-scraper/master/proxies.txt",
@@ -583,7 +583,7 @@ def DownloadProxies(proxy_ver):
 			"https://raw.githubusercontent.com/UserR3X/proxy-list/main/online/http.txt",
 			"https://raw.githubusercontent.com/UserR3X/proxy-list/main/online/https.txt",
 			"https://api.proxyscrape.com/v2/?request=getproxies&protocol=http",
-			#"https://openproxy.space/list/http",
+			"https://openproxy.space/list/http",
 			"https://openproxylist.xyz/http.txt",
 			"https://proxyspace.pro/http.txt",
 			"https://proxyspace.pro/https.txt",
@@ -605,7 +605,7 @@ def DownloadProxies(proxy_ver):
 			"https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt",
 			"https://rootjazz.com/proxies/proxies.txt",
 			"https://sheesh.rip/http.txt",
-			#"https://spys.me/proxy.txt",
+			"https://spys.me/proxy.txt",
 			"https://www.proxy-list.download/api/v1/get?type=https",
 		]
 		for api in http_api:
